@@ -76,7 +76,7 @@ function App() {
         <Route path="/:slug" element={<SingleRecipie images={images} />} />
       </Routes>
       <div className="p-3 mb-2 bg-light text-dark">
-        <p>© 2021 | My Cook Book Blog - created by Natalia, Patrizio & Kai</p>
+        <p>© 2022 | My Cook Book Blog - created by Natalia, Patrizio & Kai</p>
       </div>
     </div>
   );
