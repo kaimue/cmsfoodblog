@@ -44,7 +44,11 @@ function SingleRecipie() {
               <h1>{recipie.fields.header}</h1>
             </li>
             <li className="list-group-item">
-              <img key={images.sys.id} src={images.fields.file.url} />
+              <img
+                key={images.sys.id}
+                src={images.fields.file.url}
+                alt="Recipie"
+              />
             </li>
             <li className="list-group-item">{recipie.fields.description}</li>
             <div>

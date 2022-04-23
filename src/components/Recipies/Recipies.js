@@ -23,7 +23,7 @@ function Recipies({ recipies, images, testfunc }) {
             <div className="container col">
               <p>{recipe.fields.description}</p>
 
-              <Link to={recipe.fields.slug} onClick={testfunc}>
+              <Link to={recipe.fields.slug}>
                 <button className="btn btn-info" type="button">
                   Click here to see full Recipe
                 </button>
